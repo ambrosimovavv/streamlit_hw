@@ -4,7 +4,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import statsmodels.api as sm
 from statsmodels.tsa.arima.model import ARIMA
-if __name__ == '__main__':
+def myapp():
     st.title("Анализ погоды с использованием Streamlit")
     st.header("Шаг 1")
 
